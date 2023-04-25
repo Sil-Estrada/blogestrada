@@ -6,3 +6,6 @@ def dia_de_hoy (request):
     dia=datetime.datetime.today()
     cadena= f"hoy es {dia}"
     return HttpResponse(cadena)
+
+def inicio (request):
+    return HttpResponse('pagina de inicio')

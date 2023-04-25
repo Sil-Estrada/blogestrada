@@ -16,11 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from BlogEstrada.views import *
+#from AppRegistroUsuarios.views import *
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('dia/', dia_de_hoy),
+    path('', inicio),
+    
+
+    
 
 
 
