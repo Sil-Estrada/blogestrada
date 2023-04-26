@@ -5,7 +5,11 @@ from django.http import HttpResponse
 # Create your views here.
 
 def crear_usuario(request):
-    return HttpResponse('aca van las sentencias de ingreso de usuario')
+    return render(request, "registro.html")
+
+def inicio_app(request):
+    return render(request, "inicioapp.html")
+
 
 
 
