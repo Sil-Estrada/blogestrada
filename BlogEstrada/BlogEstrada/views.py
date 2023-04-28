@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 import datetime
+from django.shortcuts import render
 
 
 def dia_de_hoy (request):
@@ -9,3 +10,6 @@ def dia_de_hoy (request):
 
 def inicio (request):
     return HttpResponse('pagina de inicio')
+
+#def inicio_(request):
+  #  return render(request, "AppRegistroUsuarios/iniapp.html")
